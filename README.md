@@ -105,19 +105,18 @@ The application is designed with privacy, security and access control in mind.
 ## Project Structure
 
 ```text
-Private-AI-IT-Support-Assistant/
+Private-IT-Support-Assistant/
 │
 ├── app/
 │   ├── main.py
-│   ├── database.py
-│   ├── models/
-│   ├── routers/
+│   ├── api/
+│   ├── core/
+│   ├── database/
 │   ├── services/
 │   └── rag/
 │
-├── frontend/
+├── Frontend-IT-Support-Assistant/
 │   ├── src/
-│   ├── public/
 │   ├── package.json
 │   └── vite.config.ts
 │
@@ -213,7 +212,7 @@ http://127.0.0.1:8000/docs
 Open another terminal:
 
 ```bash
-cd frontend
+cd Frontend-IT-Support-Assistant
 
 npm install
 
