@@ -1,0 +1,30 @@
+
+# =====================================
+# BACKEND
+# =====================================
+fastapi
+uvicorn[standard]
+python-multipart
+pydantic
+python-dotenv
+
+# =====================================
+# RAG FRAMEWORK
+# =====================================
+langchain
+langchain-community
+langchain-chroma
+langchain-huggingface
+langchain-ollama
+
+# =====================================
+# EMBEDDINGS AND VECTOR DATABASE
+# =====================================
+sentence-transformers
+chromadb
+
+# =====================================
+# DOCUMENT PROCESSING
+# =====================================
+pypdf
+python-docx

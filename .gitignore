@@ -1,0 +1,30 @@
+
+
+# Temporary security test files
+big.pdf
+corrupt.pdf
+empty.txt
+fake.pdf
+test.exe
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Databases and uploaded documents
+*.db
+data/documents/
+chroma_db/
+chroma/
+
+# Model files
+*.bin
+*.safetensors
+*.gguf
