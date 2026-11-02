@@ -29,7 +29,7 @@ export default function AppLayout() {
 
   return <div className="app-shell">
     <aside className={`sidebar ${mobileOpen ? "sidebar-open" : ""}`}>
-      <div className="brand"><div className="brand-icon"><Sparkles size={19}/></div><div><strong>northstar</strong><span>PRIVATE AI SUPPORT</span></div><button className="mobile-close icon-btn" onClick={() => setMobileOpen(false)}><X size={18}/></button></div>
+      <div className="brand"><div className="brand-icon"><Sparkles size={19}/></div><div><strong>AskIT</strong><span>PRIVATE AI SUPPORT</span></div><button className="mobile-close icon-btn" onClick={() => setMobileOpen(false)}><X size={18}/></button></div>
       <nav className="side-nav">{nav}</nav>
       <div className="sidebar-bottom"><div className="privacy-note"><ShieldCheck size={16}/><div><b>Private by design</b><span>Local AI · Protected data</span></div></div><button className="profile-row" onClick={signOut}><div className="avatar">{user?.username?.slice(0,1).toUpperCase() || "U"}</div><div className="profile-copy"><b>{user?.username || "Account"}</b><span>{user?.role || "User"}</span></div><LogOut size={16}/></button></div>
     </aside>

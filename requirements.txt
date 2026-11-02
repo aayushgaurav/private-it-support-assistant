@@ -5,8 +5,12 @@
 fastapi
 uvicorn[standard]
 python-multipart
-pydantic
+pydantic[email]
 python-dotenv
+sqlalchemy
+pwdlib[argon2]
+PyJWT
+langchain-text-splitters
 
 # =====================================
 # RAG FRAMEWORK
